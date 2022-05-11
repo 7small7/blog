@@ -1,2 +1,7 @@
 * [首页](/)
-* [指南](redis/redis-basic/basic.md)
+* [阅读指南](redis/guide)
+* [数据类型](redis/redis-basic/type.md)
+* [持久化](redis/redis-basic/chijiuhua.md)
+* [主从复制](redis/redis-basic/zhcongfz.md)
+* [内存管理](redis/redis-basic/neicngl.md)
+* [高级试题](redis/redis-basic/gaoji.md)
