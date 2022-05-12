@@ -8,7 +8,7 @@
 
 ## GitHub开源地址
 
-[Githb个人主页](https://github.com/7small7)
+[Githb个人主页](https://github.com/7small77)
 
 ## Gitee开源地址
 

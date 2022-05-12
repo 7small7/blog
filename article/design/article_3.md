@@ -1,6 +1,6 @@
-> 专注于PHP、MySQL、Linux和前端开发，感兴趣的感谢点个关注哟！！！文章整理在[GitHub](https://github.com/7small7),[Gitee](https://gitee.com/bruce_qiq)主要包含的技术有PHP、Redis、MySQL、JavaScript、HTML&CSS、Linux、Java、Golang、Linux和工具资源等相关理论知识、面试题和实战内容。
+> 专注于PHP、MySQL、Linux和前端开发，感兴趣的感谢点个关注哟！！！文章整理在[GitHub](https://github.com/7small77),[Gitee](https://gitee.com/bruce_qiq)主要包含的技术有PHP、Redis、MySQL、JavaScript、HTML&CSS、Linux、Java、Golang、Linux和工具资源等相关理论知识、面试题和实战内容。
 
-@author:7small。
+@author:7small7。
 @source:公众号-菜鸟成长学习笔记。
 
 在一个完整的项目中，不仅仅是要完成正常的业务开发。同时为了提高一些开发效率、系统异常的追踪、系统功能的扩展等等因素，往往会用到系统在开发、运行过程中所产生的日志。这就需要我们有一个完善的日志系统来存储这些数据。本文将分享如何设计一个高可用、可扩展的分布式日志系统。

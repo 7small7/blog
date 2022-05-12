@@ -1,6 +1,6 @@
-> 专注于PHP、MySQL、Linux和前端开发，感兴趣的感谢点个关注哟！！！文章整理在[GitHub](https://github.com/7small7),[Gitee](https://gitee.com/bruce_qiq)主要包含的技术有PHP、Redis、MySQL、JavaScript、HTML&CSS、Linux、Java、Golang、Linux和工具资源等相关理论知识、面试题和实战内容。
+> 专注于PHP、MySQL、Linux和前端开发，感兴趣的感谢点个关注哟！！！文章整理在[GitHub](https://github.com/7small77),[Gitee](https://gitee.com/bruce_qiq)主要包含的技术有PHP、Redis、MySQL、JavaScript、HTML&CSS、Linux、Java、Golang、Linux和工具资源等相关理论知识、面试题和实战内容。
 
-@author:7small。
+@author:7small7。
 @source:公众号-菜鸟成长学习笔记。
 
 上一篇，我们针对分布式日志存储方案设计做了一个理论上的分析与总结，[文章地址](https://sourl.cn/6eGHPz)。本文我们将结合其中的一种方案进行实战代码的演示。另外一种方案，将在下一篇文章进行分享，此篇文章分享的是MongoDB架构模式。在知乎上发布该文章时，有人提到使用[opentelemtry+tsdb](https://zhuanlan.zhihu.com/p/509856830)，感兴趣的可以去了解一下。
@@ -14,7 +14,7 @@
 3. MongoDB服务，则是最终的日志落地。也就是说将我们的日志存储到磁盘，以达到数据的持久化，避免数据丢失。
 4. 对于系统的日志查看，我们可以直接登录MongoDB服务进行SQL查询。一般为了效率、安全等原因，会提供一个管理界面来实时查看MongoDB的日志。这里就是我们的web展示界面。可以通过web界面对日志做查询、筛选、删除等操作。
 
-上面提到的是一个架构的大致流程图。下面将具体的代码演示，需要查看代码的可以通过[Github仓库](https://github.com/7small7/go_functions)地址获取。
+上面提到的是一个架构的大致流程图。下面将具体的代码演示，需要查看代码的可以通过[Github仓库](https://github.com/7small77/go_functions)地址获取。
 
 ## 代码演示
 
@@ -31,7 +31,7 @@ magin.go(入口文件)->api(业务处理)->rabbitmq(日志生产者、消费者)
 2. RabbitMQ version 3.10.0。
 3. MongoDB version v5.0.7。
 
-下面对几个稍微重要的代码段，进行简单说明，完整代码直接查看[Github仓库](https://github.com/7small7/go_functions)即可。
+下面对几个稍微重要的代码段，进行简单说明，完整代码直接查看[Github仓库](https://github.com/7small77/go_functions)即可。
 #### 入口文件
 
 ```go
