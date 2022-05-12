@@ -2,7 +2,6 @@
 * [PHP文章](#)
 * * [数据加密总结](article/php/article_1.md)
 * * [Session与Cookie会话机制总结](article/php/article_2.md)
-* * [对象拷贝知识总结](article/php/article_3.md)
 * * [Opcache实现PHP性能优化](article/php/article_4.md)
 * * [PHP与Nginx通信原理总结](article/php/article_5.md)
 * * [PHP-FPM配置项总结](article/php/article_6.md)
