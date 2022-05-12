@@ -1,6 +1,6 @@
 # 站点说明
 
-> 本仓库包含互联网大厂面试常见热门真题。涵盖PHP、JavaScript、Linux、Golang、MySQL、Redis等等相关内容。
+> 本站点包含互联网大厂面试常见热门真题。涵盖PHP、JavaScript、Linux、Golang、MySQL、Redis等等相关内容。
 
 1. 本站点所有的面试题都只会提供面试问题，部分不会提供答案。
 
@@ -10,4 +10,4 @@
 
 4. 答题小程序，大家可自行扫码使用。
 
-![程序员面试题大全](https://qiniucloud.qqdeveloper.com/gh_fac6b543b112_258.jpg)
+![程序员面试题大全](http://qiniucloud.qqdeveloper.com/gh_fac6b543b112_258.jpg)
