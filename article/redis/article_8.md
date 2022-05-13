@@ -1,7 +1,7 @@
 > 专注于PHP、MySQL、Linux和前端开发，感兴趣的感谢点个关注哟！！！文章整理在[GitHub](https://github.com/7small77),[Gitee](https://gitee.com/bruce_qiq)主要包含的技术有PHP、Redis、MySQL、JavaScript、HTML&CSS、Linux、Java、Golang、Linux和工具资源等相关理论知识、面试题和实战内容。
 
 @author:7small7。
-@source:公众号-菜鸟成长学习笔记。
+@source:[公众号-菜鸟成长学习笔记](/site/)。
 
 前面写了一篇关于用Redis来解决秒杀业务场景下超卖的文章，罗列了秒杀场景下，为什么会超卖？如何解决超卖？使用Redis分布式锁有哪些问题？提到了几种实现技术方案。[原文链接](https://mp.weixin.qq.com/s/pMdUsiEJ94aI2piuMDcjeA)。感兴趣的可以阅读。
 
