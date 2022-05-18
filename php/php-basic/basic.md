@@ -76,10 +76,10 @@ $_SERVER['REMOTE_ADDR'];
 gethostbyname(“www.baidu.com”);
 
 // 获取客户端主机名
-$_SERVER['REMOTE_HOST '];
+$_SERVER['REMOTE_HOST'];
 
 // 客户端访问服务端应用端口号
-$_SERVER['REMOTE_PORT '];
+$_SERVER['REMOTE_PORT'];
 ```
 
 ## $str是一段html文本，使用正则表达式去除其中的所有js脚本
