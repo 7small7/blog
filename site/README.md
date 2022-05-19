@@ -1,4 +1,4 @@
-## 微信公众号
+<!-- ## 微信公众号
 
 ![](http://qiniucloud.qqdeveloper.com/202205130420812.jpg)
 
@@ -12,4 +12,6 @@
 
 ## Gitee开源地址
 
-[Gitee个人主页](https://gitee.com/bruce_qiq)
+[Gitee个人主页](https://gitee.com/bruce_qiq) -->
+
+该页面内容正在努力完善中...

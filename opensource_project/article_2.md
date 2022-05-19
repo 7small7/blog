@@ -7,3 +7,4 @@
 7. [tracker工具-delve](https://github.com/go-delve/delve)
 8. [开源跨平台的GUI工具-robotgo](https://github.com/go-vgo/robotgo)
 9. [Api服务网关-manba](https://github.com/fagongzi/manba)
+10. [支持集群的Redis客户端-uptrace](https://redis.uptrace.dev/)
