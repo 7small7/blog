@@ -87,9 +87,9 @@ Nginx与php-fpm通信有两种方式，一种是通过tcp socket和 unix socket�
 
 1.由于tcp方式相对unix的方式，并发量更高，因此针对并发量高的项目，建议采用tcp方式，现在Nginx配置示例文件默认的也是tcp方式。
 
-2.使用unix方式，可以优化的点，就是将socket文件放在/dev/shm目录下面，至于为什么放在这个目录可以参考.https://www.linuxidc.com/Linux/2014-05/101818.htm。大致的意思，就是该目录下面的文件是不是存储再硬盘中的，而是存储再内存中的。至于硬盘读取和内存读取，谁快谁慢，肯定是内存最快了。
+2.使用unix方式，可以优化的点，就是将socket文件放在/dev/shm目录下面，至于为什么放在这个目录[可以参考](https://www.linuxidc.com/Linux/2014-05/101818.htm)。大致的意思，就是该目录下面的文件是不是存储再硬盘中的，而是存储再内存中的。至于硬盘读取和内存读取，谁快谁慢，肯定是内存最快了。
 
-3.使用unix方式可以使用backlog，backlog的介绍，可以参考该文章。https://blog.csdn.net/raintungli/article/details/37913765。具体的配置可以参考下面。
+3.使用unix方式可以使用backlog，backlog的介绍，[可以参考该文章](https://blog.csdn.net/raintungli/article/details/37913765)。具体的配置可以参考下面。
 nginx 配置:
 ```shell
 server {
