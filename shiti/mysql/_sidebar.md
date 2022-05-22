@@ -1,0 +1,6 @@
+* [首页](/)
+* [阅读指南](shiti/mysql/mysql-basic/basic.md)
+* [基础试面试题](shiti/mysql/mysql-basic/jichu.md)
+* [索引面试题](shiti/mysql/mysql-basic/suoyin.md)
+* [事务面试题](shiti/mysql/mysql-basic/shiwu.md)
+* [存储引擎试题](shiti/mysql/mysql-basic/cunchuyinqing.md)

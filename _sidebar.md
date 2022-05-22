@@ -1,5 +1,5 @@
 * [首页](/)
 * [阅读指南](guide)
-* [PHP面试真题](php/guide)
-* [Redis面试真题](redis/guide)
-* [MySQL面试真题](mysql/guide)
+* [PHP面试真题](shiti/php/guide)
+* [Redis面试真题](shiti/redis/guide)
+* [MySQL面试真题](shiti/mysql/guide)
