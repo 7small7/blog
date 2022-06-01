@@ -7,3 +7,4 @@
 * * [分布式日志存储设计2](article/design/article_4.md)  
 * 高并发业务设计
 * * [高并发场景订单号生成方案](article/design/article_5.md)  
+* * [抢红包方案设计](article/design/article_6.md)  
