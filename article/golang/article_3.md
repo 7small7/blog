@@ -1,3 +1,11 @@
+> 专注于PHP、MySQL、Linux和前端开发，感兴趣的感谢点个关注哟！！！文章整理在[GitHub](https://github.com/7small7),[Gitee](https://gitee.com/bruce_qiq)主要包含的技术有PHP、Redis、MySQL、JavaScript、HTML&CSS、Linux、Java、Golang、Linux和工具资源等相关理论知识、面试题和实战内容。
+
+@author:[7small7](https://github.com/7small7)。
+
+@source:[公众号-菜鸟成长学习笔记](/site/)。
+
+@project:[微信小程序 程序员面试题大全](/site/)。
+
 本篇文章为大家分享在Golang中，如何实现对slice和map两种数据类型进行并发写入。对于入门Golang的开发者来说，可能无法意识到这个问题，这里也会做一个问题演示。
 ## 切片类型
 

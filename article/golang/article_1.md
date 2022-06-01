@@ -1,7 +1,11 @@
-> 专注于PHP、MySQL、Linux和前端开发，感兴趣的感谢点个关注哟！！！文章整理在[GitHub](https://github.com/7small77),[Gitee](https://gitee.com/bruce_qiq)主要包含的技术有PHP、Redis、MySQL、JavaScript、HTML&CSS、Linux、Java、Golang、Linux和工具资源等相关理论知识、面试题和实战内容。
+> 专注于PHP、MySQL、Linux和前端开发，感兴趣的感谢点个关注哟！！！文章整理在[GitHub](https://github.com/7small7),[Gitee](https://gitee.com/bruce_qiq)主要包含的技术有PHP、Redis、MySQL、JavaScript、HTML&CSS、Linux、Java、Golang、Linux和工具资源等相关理论知识、面试题和实战内容。
 
-@author:7small7。
+@author:[7small7](https://github.com/7small7)。
+
 @source:[公众号-菜鸟成长学习笔记](/site/)。
+
+@project:[微信小程序 程序员面试题大全](/site/)。
+
 ## 含义
 
 切片是一个种特殊的数组。是对数组的一个连续片段的引用，所以切片是一个引用类型。切片可以是数组中的一部分，也可以是由起始和终止索引标识的一些项的子集。切片有点像C语言里的指针，指针可以做运算，但代价是内存操作越界，切片在指针的基础上增加了大小，约束了切片对应的内存区域，切片使用中无法对切片内部的地址和大小进行手动调整，因此切片比指针更安全、强大。

@@ -1,7 +1,11 @@
-> 专注于PHP、MySQL、Linux和前端开发，感兴趣的感谢点个关注哟！！！文章整理在[GitHub](https://github.com/7small77),[Gitee](https://gitee.com/bruce_qiq)主要包含的技术有PHP、Redis、MySQL、JavaScript、HTML&CSS、Linux、Java、Golang、Linux和工具资源等相关理论知识、面试题和实战内容。
+> 专注于PHP、MySQL、Linux和前端开发，感兴趣的感谢点个关注哟！！！文章整理在[GitHub](https://github.com/7small7),[Gitee](https://gitee.com/bruce_qiq)主要包含的技术有PHP、Redis、MySQL、JavaScript、HTML&CSS、Linux、Java、Golang、Linux和工具资源等相关理论知识、面试题和实战内容。
 
-@author:7small7。
+@author:[7small7](https://github.com/7small7)。
+
 @source:[公众号-菜鸟成长学习笔记](/site/)。
+
+@project:[微信小程序 程序员面试题大全](/site/)。
+
 
 上一篇，我们针对分布式日志存储方案设计做了一个理论上的分析与总结，[文章地址](https://sourl.cn/6eGHPz)。本文我们将结合其中的一种方案进行实战代码的演示。另外一种方案，将在下一篇文章进行分享，此篇文章分享的是MongoDB架构模式。在知乎上发布该文章时，有人提到使用[opentelemtry+tsdb](https://zhuanlan.zhihu.com/p/509856830)，感兴趣的可以去了解一下。
 

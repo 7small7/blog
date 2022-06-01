@@ -1,3 +1,11 @@
+> 专注于PHP、MySQL、Linux和前端开发，感兴趣的感谢点个关注哟！！！文章整理在[GitHub](https://github.com/7small7),[Gitee](https://gitee.com/bruce_qiq)主要包含的技术有PHP、Redis、MySQL、JavaScript、HTML&CSS、Linux、Java、Golang、Linux和工具资源等相关理论知识、面试题和实战内容。
+
+@author:[7small7](https://github.com/7small7)。
+
+@source:[公众号-菜鸟成长学习笔记](/site/)。
+
+@project:[微信小程序 程序员面试题大全](/site/)。
+
 ## Redis存储大key有什么优化的解决方案
 
 1. 应用层对存储的数据进行压缩，在存储到Redis中，从Redis中获取数据后在解压数据。
@@ -69,3 +77,5 @@
 3. 数据量太大的时候，优先保证热点数据进行提前加载到缓存。
 
 缓存降级是指缓存失效或缓存服务器挂掉的情况下，不去访问数据库，直接返回默认数据或访问服务的内存数据。降级一般是有损的操作，所以尽量减少降级对于业务的影响程度。在项目实战中通常会将部分热点数据缓存到服务的内存中，这样一旦缓存出现异常，可以直接使用服务的内存数据，从而避免数据库遭受巨大压力。
+
+## 怎么保证Redis和MySQL的数据一致性?

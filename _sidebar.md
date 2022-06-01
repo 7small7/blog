@@ -3,3 +3,4 @@
 * [PHP面试真题](shiti/php/guide)
 * [Redis面试真题](shiti/redis/guide)
 * [MySQL面试真题](shiti/mysql/guide)
+* [Golang面试真题](shiti/golang/guide)

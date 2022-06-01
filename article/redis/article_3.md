@@ -1,7 +1,11 @@
-> 专注于PHP、MySQL、Linux和前端开发，感兴趣的感谢点个关注哟！！！文章整理在[GitHub](https://github.com/7small77),[Gitee](https://gitee.com/bruce_qiq)主要包含的技术有PHP、Redis、MySQL、JavaScript、HTML&CSS、Linux、Java、Golang、Linux和工具资源等相关理论知识、面试题和实战内容。
+> 专注于PHP、MySQL、Linux和前端开发，感兴趣的感谢点个关注哟！！！文章整理在[GitHub](https://github.com/7small7),[Gitee](https://gitee.com/bruce_qiq)主要包含的技术有PHP、Redis、MySQL、JavaScript、HTML&CSS、Linux、Java、Golang、Linux和工具资源等相关理论知识、面试题和实战内容。
 
-@author:7small7。
+@author:[7small7](https://github.com/7small7)。
+
 @source:[公众号-菜鸟成长学习笔记](/site/)。
+
+@project:[微信小程序 程序员面试题大全](/site/)。
+
 
 ## 为什么要做持久化存储?
 
@@ -164,6 +168,7 @@ aof 日志追加方式实现持久化存储，需要经历如下四个过程.命
 ### 文件写入策略
 
 文件写入是将 aof_buf 缓冲区的命令写入到文件中.文件写入的策略有如下三种方式：
+
 |  配置项  |                                                           配置说明                                                                      |
 | :------: | :------------------------------------------------------------------------------------------------------------------------------------------------: |
 |  always  |              命令写入到 aof_buf 缓冲区中之后立即调用系统的<font color='red'>fsync 操作</font>同步到 aof 文件中，fsync 完成后线程返回.              |

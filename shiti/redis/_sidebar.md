@@ -4,4 +4,8 @@
 * [持久化](shiti/redis/redis-basic/chijiuhua.md)
 * [主从复制](shiti/redis/redis-basic/zhcongfz.md)
 * [内存管理](shiti/redis/redis-basic/neicngl.md)
-* [高级试题](shiti/redis/redis-basic/gaoji.md)
+* 功能设计
+* * [高并发业务](shiti/redis/redis-basic/gongnengsheji_1.md)
+* 底层原理
+* * [运行原理](shiti/redis/redis-basic/gaoji_1.md)
+* * [数据结构](shiti/redis/redis-basic/gaoji_2.md)
