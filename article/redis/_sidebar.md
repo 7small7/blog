@@ -1,6 +1,7 @@
 * [上一页](/article/_sidebar.md)
 * 数据类型
 * * [主从复制基础知识](article/redis/article_1.md)
+* * [Stream实现消息队列](article/redis/article_11.md)
 * 主从复制
 * * [Redis数据类型以及使用场景](article/redis/article_2.md)  
 * 持久化
