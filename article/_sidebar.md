@@ -9,5 +9,7 @@
 * * [阅读全部文章](article/mysql/_sidebar.md)
 * [计算机文章](#)
 * * [阅读全部文章](article/computer/_sidebar.md)
+* [服务组件](#)
+* * [阅读全部文章](article/service/_sidebar.md)
 * [项目方案设计](#)
 * * [阅读全部文章](article/design/_sidebar.md)
