@@ -513,3 +513,5 @@ Note that since the replica by default does not evict, it may end using more
 </kbd>决定开启是否在从节点处理过期处理策略。
 
 2主从复制默认的情况下,都是在主节点实现,主节点将对应的del命令发送给从节点实现，从节点执行del命令。
+
+![](https://qiniucloud.qqdeveloper.com/public_image.png)

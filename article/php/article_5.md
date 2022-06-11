@@ -215,3 +215,5 @@ listen = /usr/tmp/php-fpm.sock;
 CGI: CGI是 web 服务器与编程语言(PHP、Python)解析器的一种交互协议。
 FASTCGI: FASTCGI是 CGI 的升级版本。
 PHP-FPM: 是 PHP 的FASTCGI的协议管理器，负责与web 服务器进行通信，通过交互协议将数据传递给 work 进程。
+
+![](https://qiniucloud.qqdeveloper.com/public_image.png)

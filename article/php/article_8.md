@@ -136,3 +136,5 @@ class PropertiesExample {
     public $different = true; // 致命错误
 }
 ```
+
+![](https://qiniucloud.qqdeveloper.com/public_image.png)

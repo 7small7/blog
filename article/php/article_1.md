@@ -188,3 +188,5 @@ var_dump($decrypt1);
 3.在实际的加密过程,尽可能的增加我们的密码复杂度,同时定期更换密码等操作也是一个加强数据安全的方式。
 
 4.选择一些可靠的安全函数。例如 PHP 的 mcrypt_encrypt()、mcrypt_decrypt()加密方式已经存在被破解的安全隐患并且 PHP 官方也不建议使用。
+
+![](https://qiniucloud.qqdeveloper.com/public_image.png)

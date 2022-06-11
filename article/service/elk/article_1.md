@@ -202,3 +202,5 @@ output {
 ## 总结
 
 上面的步骤就演示完，如何安装ELK。其实都很简单。最重要的是要注意版本号一致。
+
+![](https://qiniucloud.qqdeveloper.com/public_image.png)

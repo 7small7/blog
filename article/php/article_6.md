@@ -225,3 +225,5 @@ pm.start_servers = 15
 当我们尝试设置为3时，显示如下错误信息。
 ![](https://oscimg.oschina.net/oscnet/up-945676ec3066c3625fa09f42bb55af05325.png)
 说明，这里的start_servers配置项和min_spare_servers配置是有一定的关系的。我们设置为最小10，结果就能正常启动php-fpm了。
+
+![](https://qiniucloud.qqdeveloper.com/public_image.png)

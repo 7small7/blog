@@ -555,3 +555,5 @@ object(Predis\Response\Status)#237 (1) {
   string(2) "OK"
 }
 ```
+
+![](https://qiniucloud.qqdeveloper.com/public_image.png)

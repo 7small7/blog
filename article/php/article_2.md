@@ -211,3 +211,5 @@ a.要看浏览器之间对cookie的管理机制是不是一样。
 6.如果浏览器禁用了cookie，session是否还能继续使用?
 
 默认情况下，cookie如果被禁用了，则无法在客户端创建sessionid了。但是session也可以通过url或者表单等方式进行传输。
+
+![](https://qiniucloud.qqdeveloper.com/public_image.png)

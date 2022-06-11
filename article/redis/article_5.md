@@ -206,3 +206,5 @@ return '更新失败';
 ## 文章总结
 
 该文属于针对不同情况的分析。很多情况也只是出于一种理论的状态。比较推荐的方式，还是推荐使用先更新MySQL在更新缓存。
+
+![](https://qiniucloud.qqdeveloper.com/public_image.png)

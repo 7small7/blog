@@ -208,3 +208,5 @@ opcache.revalidate_freq  = 60
 2. 从截图上来看，开启opcache开启之后，有一些小幅度的提升。也并没有网上说的翻倍的提升。
 
 3. 这里的提升不能说opcache的提升效果不明显，这需要根据综合因素决定，这里的演示使用Mac操作本身就会降低很多。
+
+![](https://qiniucloud.qqdeveloper.com/public_image.png)

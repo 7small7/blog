@@ -271,3 +271,5 @@ public function filterMobile()
 ## 总结
 
 布隆过滤器节省内存，但是也存在一种误差。对于开篇提到的几个案例场景是一种非常不错的选择。
+
+![](https://qiniucloud.qqdeveloper.com/public_image.png)

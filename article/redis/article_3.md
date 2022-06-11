@@ -378,3 +378,5 @@ aof-use-rdb-preamble no
 
 4. 执行完之后，对原有的文件进行替换。接着处理新的命令。
 > 重写操作时对fork时的父进程内数据进行重写，而不是对原有的aof进行重写。重写操作用到了写时复制技术，子进程只能获取到fork时父进程的数据，因此需要将新的命令写入到rewrite-aof-buffer，来保证数据的完整性。
+
+![](https://qiniucloud.qqdeveloper.com/public_image.png)

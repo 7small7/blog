@@ -231,6 +231,7 @@ repl-timeout 100;单位是秒
 # 是否开启无盘复制
 repl_diskless_sync yes;
 ```
+![](https://qiniucloud.qqdeveloper.com/public_image.png)
 
 
 

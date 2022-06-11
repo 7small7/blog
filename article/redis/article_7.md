@@ -352,3 +352,5 @@ spinlock又称自旋锁，是实现保护共享资源而提出一种锁机制。
 3. 很多人都在说zookeeper更适合拿来用分布式锁场景，那zookeeper比Redis耗在哪些地方呢？
 
 带着种种疑问，我们在下一篇文章再见。喜欢的，感兴趣的，欢迎你关注我的文章。文章中存在不足的地方，也欢迎指正。
+
+![](https://qiniucloud.qqdeveloper.com/public_image.png)

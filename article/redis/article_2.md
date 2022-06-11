@@ -303,3 +303,4 @@ Stream类型是Redis在5.0之后版本新增的一种数据结构。该数据结
       3) "age"
       4) "12"
 ```
+![](https://qiniucloud.qqdeveloper.com/public_image.png)
