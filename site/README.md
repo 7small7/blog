@@ -1,17 +1,4 @@
-<!-- ## 微信公众号
+## 开源项目介绍
 
-![](http://qiniucloud.qqdeveloper.com/202205130420812.jpg)
-
-## 程序员面试题大全
-
-![](http://qiniucloud.qqdeveloper.com/202205130422445.jpg)
-
-## GitHub开源地址
-
-[Githb个人主页](https://github.com/7small77)
-
-## Gitee开源地址
-
-[Gitee个人主页](https://gitee.com/bruce_qiq) -->
-
-该页面内容正在努力完善中...
+1. 程序员面试题大全。
+2. Golang面试题大全。
