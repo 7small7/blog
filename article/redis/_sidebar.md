@@ -16,6 +16,5 @@
 * * [布隆过滤器使用](article/redis/article_6.md) 
 * * [分布式锁方案解决1](article/redis/article_7.md) 
 * * [分布式锁方案解决2](article/redis/article_8.md)
-* * [Redis使用场景](article/redis/article_12.md) 
 
 
