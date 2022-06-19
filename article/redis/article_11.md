@@ -6,6 +6,10 @@
 
 @project:[微信小程序 程序员面试题大全](/site/)。
 
+[B站视频链接地址一](https://www.bilibili.com/video/BV1iT411G71S?share_source=copy_web)
+
+[B站视频链接地址二](https://www.bilibili.com/video/BV1Jf4y1f7oJ?share_source=copy_web)
+
 ## Redis实现队列功能
 
 在日常开发中，很多时候我们可能会使用队列实现异步任务的分发。例如用户下单的积分成长值增加、消息发送等等常见。这种场景可以使用Redis中的`list`数据类型来实现队列功能。但存在不足的几点：
