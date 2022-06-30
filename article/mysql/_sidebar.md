@@ -8,3 +8,4 @@
 * * [主从复制基础知识总结](article/mysql/article_3.md)  
 * 优化方案
 * * [常见优化方案总结1](article/mysql/article_5.md)  
+* * [为什么MySQL不推荐使用join](article/mysql/article_6.md)
