@@ -877,7 +877,7 @@
 }
 ```
 
-### 聚合查询-分组
+#### 分组查询
 
 在 Postman 中，向 ES 服务器发 GET请求 ： `http://127.0.0.1:9200/shopping/_search`，附带JSON体如下：
 ```php
@@ -1052,7 +1052,7 @@
 }
 ```
 
-### 聚合查询-平均值
+#### 查询平均值
 
 在 Postman 中，向 ES 服务器发 GET请求 ： `http://127.0.0.1:9200/shopping/_search`，附带JSON体如下：
 ```php
