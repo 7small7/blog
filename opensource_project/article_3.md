@@ -16,3 +16,6 @@
 1. [mp-html一个强大的小程序富文本组件](https://jin-yufeng.gitee.io/mp-html/#/overview/quickstart)
 2. [uCharts是一款基于canvas API开发的适用于所有前端应用的图表库](https://www.ucharts.cn/v2/#/guide/index)
 3. [UEditor 是由百度「FEX前端研发团队」开发的所见即所得富文本web编辑器](http://fex.baidu.com/ueditor/)
+4. [mavonEditor-一个基于Vue的降价编辑器，支持多种个性化功能](https://github.com/hinesboy/mavonEditor)
+5. [功能丰富、插件式的markdown工具](https://github.com/nhn/tui.editor)
+6. [wangEditor-开源 Web 富文本编辑器，开箱即用，配置简单](https://www.wangeditor.com/)
