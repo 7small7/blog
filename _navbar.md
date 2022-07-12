@@ -1,3 +1,4 @@
+* [首页](/)
 * 技术文章
   * [PHP](article/php/_sidebar.md)
   * [Golang](article/golang/_sidebar.md)

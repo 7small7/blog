@@ -1,4 +1,3 @@
-* [上一页](/article/_sidebar.md)
 * [代码设计](#)
 * * [代码分层设计实践总结](article/design/article_1.md)
 * * [JWT实现用户授权总结](article/design/article_2.md)  

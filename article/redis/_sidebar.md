@@ -1,4 +1,3 @@
-* [上一页](/article/_sidebar.md)
 * 数据类型
 * * [主从复制基础知识](article/redis/article_1.md)
 * * [Stream实现消息队列](article/redis/article_11.md)

@@ -1,4 +1,3 @@
-* [上一页](/article/_sidebar.md)
 * [网络通信](#)
 * * [Session与Cookie会话机制总结](article/php/article_2.md)
 * 底层原理

@@ -1,4 +1,3 @@
-* [上一页](/article/_sidebar.md)
 * 基础知识
 * * [日志文件分类归纳](article/mysql/article_4.md)  
 * 索引
