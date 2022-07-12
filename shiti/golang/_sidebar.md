@@ -1,4 +1,3 @@
-* [首页](/)
 * [阅读指南](shiti/golang/guide)
 * 基础语法
 * * [数据类型](shiti/golang/golang-basic/basic_1.md)

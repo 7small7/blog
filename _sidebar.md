@@ -1,8 +1,0 @@
-* [首页](/)
-* [阅读指南](guide)
-* [PHP面试真题](shiti/php/guide)
-* [Redis面试真题](shiti/redis/guide)
-* [MySQL面试真题](shiti/mysql/guide)
-* [Golang面试真题](shiti/golang/guide)
-* [网络面试真题](shiti/network/guide)
-* [完整企业面试题](shiti/company/guide)

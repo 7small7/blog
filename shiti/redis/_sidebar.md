@@ -1,4 +1,3 @@
-* [首页](/)
 * [阅读指南](shiti/redis/guide)
 * [数据类型](shiti/redis/redis-basic/type.md)
 * [持久化](shiti/redis/redis-basic/chijiuhua.md)

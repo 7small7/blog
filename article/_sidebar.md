@@ -1,4 +1,3 @@
-* [首页](/)
 * [PHP文章](#)
 * * [阅读全部文章](article/php/_sidebar.md)
 * [Golang文章](#)

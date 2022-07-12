@@ -1,0 +1,21 @@
+* 技术文章
+  * [PHP](article/php/_sidebar.md)
+  * [Golang](article/golang/_sidebar.md)
+  * [MySQL](article/mysql/_sidebar.md)
+  * [Redis](article/redis/_sidebar.md)
+  * [计算机基础](article/computer/_sidebar.md)
+  * [elasticsearch](article/es/_sidebar.md)
+* 面试真题
+  * [MySQL](shiti/mysql/_sidebar.md)
+  * [PHP](shiti/php/_sidebar.md)
+  * [Redis](shiti/redis/_sidebar.md)
+  * [Golang](shiti/golang/_sidebar.md)
+  * [企业面试](shiti/company/_sidebar.md)
+  * [网络](shiti/network/_sidebar.md)
+* 开发资源
+  * [PHP开发资源](opensource_project/article_1.md)
+  * [Golang开发资源](opensource_project/article_1.md)
+  * [JavaScript开发资源](opensource_project/article_2.md)
+* 博主开源
+  * [Github](https://github.com/7small7)
+  * [Gitee](https://gitee.com/bruce_qiq)
