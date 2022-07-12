@@ -11,3 +11,7 @@
 4. 答题小程序，大家可自行扫码使用。
 
 ![程序员面试题大全](http://qiniucloud.qqdeveloper.com/gh_fac6b543b112_258.jpg)
+
+5. 个人公众号，文章的各种附件、最新资源都会在这里发布。
+
+![](http://qiniucloud.qqdeveloper.com/202205130420812.jpg)
