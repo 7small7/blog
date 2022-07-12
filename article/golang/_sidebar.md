@@ -1,3 +1,5 @@
+* 基础知识
+  * [环境安装](article/golang/article_0.md)
 * 数据类型
 * * [数据类型-切片](article/golang/article_1.md)
 * * [数据类型-数组](article/golang/article_2.md)
