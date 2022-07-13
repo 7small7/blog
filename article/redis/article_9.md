@@ -13,7 +13,9 @@
 文中相关资料下载地址:[链接:](https://pan.baidu.com/s/1cDV9eXuUwuA0QFELDMkIHQ)  密码: mv86
 
 ## 主从复制弊端
+
 ![1618556721550-Snipaste_2021-04-16_15-04-45](http://qiniucloudtest.qqdeveloper.com/mweb/1618556721550-Snipaste_2021-04-16_15-04-45.png)
+
 上面的图形结构，大致的可以理解为Redis的主从复制拓扑图。
 
 1. 其中1个主节点负责应用系统的写入数据，另外的4个从节点负责应用系统的读数据。
@@ -35,7 +37,9 @@
 ## 什么是哨兵
 
 可以把Redis的哨兵理解为一种**Redis分布式架构**。 该架构中主要存在两种角色，一种是哨兵，另外一种是数据节点(主从复制节点)。
+
 ![1618558716540-Snipaste_2021-04-16_15-38-08](http://qiniucloudtest.qqdeveloper.com/mweb/1618558716540-Snipaste_2021-04-16_15-38-08.png)
+
 哨兵主要负责的任务是：
 
 1. 每一个哨兵都会监控数据节点以及其他的哨兵节点。
@@ -47,6 +51,7 @@
 4. 接着将其他的从节点断开与旧主节点的复制关系，将推举出来的新主节点作为从节点的主节点。
 
 5. 将切换的结果通知给应用系统。
+
 ![1618558995604-Snipaste_2021-04-16_15-43-04](http://qiniucloudtest.qqdeveloper.com/mweb/1618558995604-Snipaste_2021-04-16_15-43-04.png)
 ## 配置哨兵
 
@@ -183,7 +188,9 @@ kert@kertdeMacBook-Pro-2  ~/config/redis/sentinel  redis-sentinel 8005.con
 ## 演示故障切换
 
 我们先打开三个终端，分配时master节点和两个slave节点。检测是否能够正常进行主从复制。
+
 ![1618560150817-Snipaste_2021-04-16_16-01-40](http://qiniucloudtest.qqdeveloper.com/mweb/1618560150817-Snipaste_2021-04-16_16-01-40.png)
+
 我们在主节点任意写入一些数据，然后在从节点进行查询数据。为了方便，后面将master称作1号终端，两个slave分配叫做2号和3号终端。
 1. 我们在1号终端写入数据。
 
@@ -248,7 +255,9 @@ master0:name=mymaster,status=ok,address=127.0.0.1:8002,slaves=2,sentinels=3
 > 通过上面的几个状态信息，我们可以看到哨兵检测的主节点信息，主节点下面有几个从节点，同时哨兵节点有几个。
 
 我们杀掉master的进程。可以看到1号端口自动断开了连接。
+
 ![1618560942345-Snipaste_2021-04-16_16-15-12](http://qiniucloudtest.qqdeveloper.com/mweb/1618560942345-Snipaste_2021-04-16_16-15-12.png)
+
 接着我们通过哨兵机制查看一下数据节点状态信息。
 ```shell
 kert@kertdeMacBook-Pro-2  ~  redis-cli -p 8005 info
@@ -509,12 +518,15 @@ class OperationRedis
 ```
 
 通过访问该代码，得到如下结果：
+
 ![1618648165832-Snipaste_2021-04-17_16-28-59](http://qiniucloudtest.qqdeveloper.com/mweb/1618648165832-Snipaste_2021-04-17_16-28-59.png)
 > 改代码在实际的生产中，肯定使用时不对的，这里只是为了演示代码如何操作哨兵。
 
 其中的操作逻辑大致如下图：
+
 ![1618650744497-Snipaste_2021-04-17_17-11-46](http://qiniucloudtest.qqdeveloper.com/mweb/1618650744497-Snipaste_2021-04-17_17-11-46.png)
-## Laravel框架配置哨兵
+
+### Laravel框架配置哨兵
 
 Laravel框架自带Redis操作类。我们只需要简单配置即可。找到config/database.php文件。设置如下配置信息即可：
 ```php
@@ -556,4 +568,8 @@ object(Predis\Response\Status)#237 (1) {
 }
 ```
 
-![](https://qiniucloud.qqdeveloper.com/public_image.png)
+### 哨兵选主机制
+
+1. 从从节点中选择`slave-priority`配置最小值的那一天作为从节点，如果设置为0，表示该从节点不参与从节点换主节点。
+2. 如果不存在`slave-priority`配置，则选择集群中同步数据最多，偏移量最大的节点作为主节点。
+3. 如果还是不存在，则选择runid最小的从节点为主节点。
