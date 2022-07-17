@@ -6,6 +6,7 @@
   * [Redis](article/redis/_sidebar.md)
   * [计算机基础](article/computer/_sidebar.md)
   * [elasticsearch](article/es/_sidebar.md)
+  * [业务设计](article/design/_sidebar.md)
 * 面试真题
   * [MySQL](shiti/mysql/_sidebar.md)
   * [PHP](shiti/php/_sidebar.md)
