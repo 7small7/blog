@@ -2,6 +2,7 @@
   * [基础介绍](article/es/article_0.md)
 * 环境安装
   * [Mac安装](article/es/article_4.md)
+  * [Linux安装](article/es/article_7.md)
   * [Windows安装](article/es/article_5.md)
   * [ELK安装](article/es/article_6.md)
 * 索引与文档
