@@ -4,7 +4,8 @@
   * [Mac安装](article/es/article_4.md)
   * [Linux安装](article/es/article_7.md)
   * [Windows安装](article/es/article_5.md)
-  * [ELK安装](article/es/article_6.md)
+  * [kibana安装](article/es/article_8.md)
+  * [Logstash安装](article/es/article_9.md)
 * 索引与文档
   * [索引与文档](article/es/article_1.md) 
   * [索引操作总结](article/es/article_2.md)
