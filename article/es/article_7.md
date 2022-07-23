@@ -52,6 +52,7 @@ sudo esuser
 ```shell
 cd es/bin && elasticsearch
 ```
+> es默认可以设置后台运行，直接使用`elasticsearch -d`即可以后台程序运行。
 
 ### 测试服务
 
