@@ -39,7 +39,7 @@
 
 向 ES 服务器发 GET 请求 ： `http://127.0.0.1:9200/_cat/indices?v`。
 
-这里请求路径中的_cat 表示查看的意思， indices 表示索引，所以整体含义就是查看当前 ES服务器中的所有索引，就好像 MySQL 中的 show tables 的感觉，服务器响应结果如下 :
+这里请求路径中的_cat 表示查看的意思， indices 表示索引，所以整体含义就是查看当前 ES服务器中的所有索引，就好像MySQL中的`show databases`的感觉，服务器响应结果如下 :
 ```php
 health status index    uuid                   pri rep docs.count docs.deleted store.size pri.store.size
 yellow open   shopping J0WlEhh4R7aDrfIc3AkwWQ   1   1          0            0       208b           208b
